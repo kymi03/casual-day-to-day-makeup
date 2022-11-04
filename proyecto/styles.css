@@ -1,0 +1,72 @@
+:root{
+    --fondo:#fecfc5;
+    --titles:#403431;
+    --links:#b66655;
+    --quote:#c5f4fe;
+}
+/* background */
+html{
+    background-image: url(https://i.postimg.cc/zB9NngMs/paisley-1769549.png); 
+    font-size: 62.5%;
+}
+
+main{
+    background-color: var(--fondo);
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+header{
+    background-color: var(--fondo);
+}
+footer{
+    background-color: var(--fondo);
+}
+aside{
+    background-color: var(--fondo);
+    flex: 1;
+    overflow-y: auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+
+/* images */
+img{
+    width: 600px;
+    display: block;
+    width: 60%;
+    margin: 3rem auto;
+}
+/* text */
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 3.5rem;
+
+}
+h3{
+    font-size: 2.5rem;
+}
+p,li{
+    font-size: 2rem;
+}
+blockquote{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 5rem;
+    color:#9453c1 ;
+}
+h1, h2, h3{
+    color: var(--titles);
+    text-align: center;
+}
+a.header_link{
+    color: var(--links);
+}
+body{
+    display: flex; 
+    flex-direction: column;
+}
